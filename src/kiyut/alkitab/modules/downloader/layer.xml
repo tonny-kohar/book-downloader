@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE filesystem PUBLIC "-//NetBeans//DTD Filesystem 1.1//EN" "http://www.netbeans.org/dtds/filesystem-1_1.dtd">
+<filesystem>
+    <folder name="Actions">
+        <folder name="Tools">
+            <file name="kiyut-alkitab-actions-DownloaderAction.instance">
+                <attr name="instanceClass" stringvalue="kiyut.alkitab.modules.downloader.actions.DownloaderAction"/>
+            </file>
+        </folder>
+    </folder>
+    <folder name="Menu">
+        <folder name="Tools">
+            <file name="DownloaderAction.shadow">
+                <attr name="originalFile" stringvalue="Actions/Tools/kiyut-alkitab-actions-DownloaderAction.instance"/>
+                <attr name="position" intvalue="1350"/>
+            </file>
+        </folder>
+    </folder>
+</filesystem>

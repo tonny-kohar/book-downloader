@@ -1,0 +1,2 @@
+Due to the use of bibledesktop which is licensed under GPL license. This module also licensed under GPL license.
+Please see the accompanied LICENSE-gpl.txt for more detail.
