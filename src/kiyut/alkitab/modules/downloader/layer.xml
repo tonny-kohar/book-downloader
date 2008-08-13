@@ -12,7 +12,7 @@
         <folder name="Tools">
             <file name="DownloaderAction.shadow">
                 <attr name="originalFile" stringvalue="Actions/Tools/kiyut-alkitab-actions-DownloaderAction.instance"/>
-                <attr name="position" intvalue="1350"/>
+                <attr name="position" intvalue="1365"/>
             </file>
         </folder>
     </folder>
