@@ -7,11 +7,17 @@
             <standalone/>
             <module-dependencies>
                 <dependency>
+                    <code-name-base>kiyut.alkitab.modules.branding</code-name-base>
+                    <run-dependency>
+                        <specification-version>2.0</specification-version>
+                    </run-dependency>
+                </dependency>
+                <dependency>
                     <code-name-base>kiyut.alkitab.modules.jsword</code-name-base>
                     <build-prerequisite/>
                     <compile-dependency/>
                     <run-dependency>
-                        <specification-version>1.6.20080809</specification-version>
+                        <specification-version>1.6.0.20080920</specification-version>
                     </run-dependency>
                 </dependency>
                 <dependency>
