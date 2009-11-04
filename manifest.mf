@@ -3,5 +3,5 @@ OpenIDE-Module: kiyut.alkitab.modules.downloader
 OpenIDE-Module-Layer: kiyut/alkitab/modules/downloader/layer.xml
 OpenIDE-Module-Install: kiyut/alkitab/modules/downloader/DownloaderModuleInstall.class
 OpenIDE-Module-Localizing-Bundle: kiyut/alkitab/modules/downloader/Bundle.properties
-OpenIDE-Module-Specification-Version: 1.6.0.20080920
+OpenIDE-Module-Specification-Version: 1.6.0.20091003
 
