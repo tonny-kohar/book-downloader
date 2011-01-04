@@ -33,10 +33,12 @@ public class DownloaderAction extends CallableSystemAction {
     public DownloaderAction() {
         booksChanged = false;
         booksListener = new BooksListener() {
+            @Override
             public void bookAdded(BooksEvent arg0) {
                 booksChanged = true;
             }
 
+            @Override
             public void bookRemoved(BooksEvent arg0) {
                 booksChanged = true;
             }
@@ -46,6 +48,7 @@ public class DownloaderAction extends CallableSystemAction {
     @Override
     public void performAction() {
         SwingUtilities.invokeLater(new Runnable() {
+            @Override
             public void run() {
                 if (WebWarning.instance().isShown()) {
                     int choide = InternetWarning.showDialog(WindowManager.getDefault().getMainWindow(), "?");
@@ -81,6 +84,7 @@ public class DownloaderAction extends CallableSystemAction {
                         Books.installed().removeBooksListener(booksListener);
                         if (booksChanged) {
                             SwingUtilities.invokeLater(new Runnable() {
+                                @Override
                                 public void run() {
                                     confirmRestart();
                                 }
