@@ -1,7 +1,8 @@
 Manifest-Version: 1.0
+AutoUpdate-Show-In-Client: true
 OpenIDE-Module: kiyut.alkitab.modules.downloader
 OpenIDE-Module-Layer: kiyut/alkitab/modules/downloader/layer.xml
 OpenIDE-Module-Install: kiyut/alkitab/modules/downloader/DownloaderModuleInstall.class
 OpenIDE-Module-Localizing-Bundle: kiyut/alkitab/modules/downloader/Bundle.properties
-OpenIDE-Module-Specification-Version: 1.6.0.20091003.1
+OpenIDE-Module-Specification-Version: 2.0.0.20160325.1
 
